@@ -1,11 +1,17 @@
 
-.principal{background-color: cadetblue; height:611px;width: 17%;}
-.contenedor{ width:100% ;}
-.icon-title{padding: 20px;}
-.titulo{margin-left: 10px;}
-.icono{color: blue;}
+.principal{background-image: url(../images/paisaje1.jpg);height:619px ;width: 15%;opacity:0.9;}
+.icon-title{padding: 9px;padding-left: 22px;}
+.titulo{margin-left: 10px;color: white;}
+.icono{color: rgb(136, 143, 247);}
 
 .navegador ul li{
-    margin: 25px;
+    margin: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.li{
+    padding: 10px;
+    font-size: 20px;
 }
 
