@@ -8,9 +8,11 @@ import {LiaBezierCurveSolid} from "react-icons/lia";
 import {IoFlashlightOutline} from "react-icons/io5";
 import {AiOutlineHeart} from "react-icons/ai";
 import {PiArrowClockwiseBold} from "react-icons/Pi";
-import {IoCalendarOutline} from "react-icons/io5"
-import {TbClockHour4} from "react-icons/tb"
-import Diagrama from "../images/diagrama-en-puntos.png"
+import {IoCalendarOutline} from "react-icons/io5";
+import {TbClockHour4} from "react-icons/tb";
+import Diagrama from "../images/diagrama-en-puntos.png";
+import Circular from "../images/diagrama-en-circulo1.png"
+// import {FaClockRotateLeft} from "react-icons/fa6"
 
 const inicioPages = () => {
   return (
@@ -87,17 +89,41 @@ const inicioPages = () => {
           </div>
           <div className='contenedor3 flex '>
             <div className='cuadro2'>
-              <h2>Users Behavior</h2>
-              <h1>24 Horus performace</h1>
-              <img src={Diagrama} className='h-10' />
+              <div className='texto3 flex flex-col'>
+                <h2>Users Behavior</h2>
+                <h1>24 Horus performace</h1>
+              </div>
+              <img src={Diagrama} />
               <div className='colors-cl flex items-center'>
+                <div className='circulo'></div>
                 <h1>Open</h1>
+                <div className='circulo1'></div>
                 <h1>Click</h1>
+                <div className='circulo2'></div>
                 <h1>Click Second Time</h1>
               </div>
               <div className="icono-tex1 flex items-center">
-                <div className="icono2"></div>
-                <h1 className='Update'>Update Now</h1>
+                <div className="icono2"><PiArrowClockwiseBold/></div>
+                <h1 className='Update'>Updated 3 minutes ago</h1>
+              </div>
+            </div>
+            <div className='cuadro3'>
+              <div className='texto3 flex flex-col'>
+                <h2>Email Statistics</h2>
+                <h1>Last Campaig Performace</h1>
+              </div>
+              <img src={Circular} />
+              <div className='colors-cl1 flex items-center'>
+                <div className='circulo'></div>
+                <h1>Open</h1>
+                <div className='circulo1'></div>
+                <h1>Bounce</h1>
+                <div className='circulo2'></div>
+                <h1>Unsubcribe</h1>
+              </div>
+              <div className="icono-tex1 flex items-center">
+                <div className="icono2"><TbClockHour4/></div>
+                <h1 className='Update'>Campaign sent 2 days ago</h1>
               </div>
             </div>
           </div>

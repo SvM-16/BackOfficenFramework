@@ -22,5 +22,17 @@
 .Update{margin-left: 5px;}
 
 .contenedor3{width: 100%;margin-top: 80px;}
-.cuadro2{width:65%;height:355px;margin-left: 11px;border: 1px solid rgb(219, 233, 219); border-radius: 5px;}
-.colors-cl{border-bottom-width: 1px;width: 250px;margin-left: 10px;}
+.cuadro2{width:65%;height:371px;margin-left: 11px;border: 1px solid rgb(219, 233, 219); border-radius: 5px;}
+.cuadro3{width:32%;height:368px;margin-left: 11px;border: 1px solid rgb(219, 233, 219); border-radius: 5px;}
+.colors-cl{border-bottom-width: 1px;width: 735px;margin-left: 10px;margin-top: 10px;padding: 5px;}
+.colors-cl1{border-bottom-width: 1px;width: 350px;margin-left: 10px;margin-top: 10px;padding: 5px;}
+.texto3{padding: 10px;}
+.texto3 h2{font-size: 25px;}
+.texto3 h1{font-size: 14px;}
+.cuadro2 img{width: 90%;height: 200px;margin-left: 35px;}
+.cuadro3 img{width: 60%;height: 200px;margin-left: 70px;}
+.circulo{width: 14px;height: 14px;background-color:blue;border-radius: 20px;border: 1px solid;margin-left: 5px;}
+.circulo1{width: 14px;height: 14px;background-color:red;border-radius: 20px;border: 1px solid;margin-left: 5px;}
+.circulo2{width: 14px;height: 14px;background-color:orange;border-radius: 20px;border: 1px solid;margin-left: 5px;}
+.colors-cl h1{margin-left: 3px; font-size: 14px;}
+.colors-cl1 h1{margin-left: 3px; font-size: 14px;}
